@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flew-col">
-      <div className="w-full h-20 pt-6 pl-10 bg-orange-200">股市概览</div>
+      <div className="w-full h-20 pt-6 pl-10 bg-orange-200">股利政策</div>
     </div>
   );
 }
