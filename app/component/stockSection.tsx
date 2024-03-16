@@ -17,9 +17,9 @@ export default function StockFinance() {
   const itemsList = modelItems.map((item) => {
     return (
       <Fragment key={item.id}>
-        <div className="w-full h-20 flew-col justify-start">
-          <BackpackIcon className="ml-4" />
-          <Link href={item.route} prefetch>
+        <div className="w-full h-20 flex-row justify-start">
+          <BackpackIcon className="ml-4" color="secondary"/>
+          <Link href={item.route} prefetch className="text-blue-100 ml-2 ">
             {item.name}
           </Link>
         </div>
@@ -28,7 +28,7 @@ export default function StockFinance() {
   });
 
   return (
-    <div className="h-screen bg-slate-300 flew-col items-center pt-20 pr-10">
+    <div className="h-screen bg-gradient-to-r from-blue-600 to-blue-500 bg-opacity-70 flew-col items-center pt-20 pr-10">
       {itemsList}
     </div>
   );

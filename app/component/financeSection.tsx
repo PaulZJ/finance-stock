@@ -30,7 +30,7 @@ export default function FinanceSection() {
     return (
         <Fragment key={item.id}>
       <div className="w-full h-20 flew-col tems-center">
-        <item.icon className="ml-12" />
+        <item.icon className="ml-12" color="secondary" />
         <Button size="large" fullWidth color="retroRed">
           {item.name}
         </Button>
@@ -39,7 +39,7 @@ export default function FinanceSection() {
     )
   });
   return (
-    <div className="w-100 h-screen bg-slate-200 flew-col items-center pt-20 pl-8">
+    <div className="w-100 h-screen bg-gradient-to-r from-blue-500 to-blue-600 bg-opacity-70 flew-col items-center pt-20 pl-8">
       {listItems}
     </div>
   );

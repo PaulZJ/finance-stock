@@ -27,7 +27,7 @@ type ColorKeys = 'retroRed' | 'retroDark' | 'retroGreen'
 
 const colors: Record<ColorKeys, string> = {
     retroDark: '#000000',
-    retroRed: '#ff0000',
+    retroRed: '#e0f2fe',
     retroGreen: '#FFFF00'
 }
 

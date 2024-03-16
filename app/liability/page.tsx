@@ -8,10 +8,12 @@
  */
 import Image from "next/image";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="flew-col">
-      <div className="w-full h-20 pt-6 pl-10 bg-orange-200">负债与股东权益</div>
+      <div className="w-full h-screen pt-6 pl-10 bg-gradient-to-br from-blue-100 to-blue-300 bg-opacity-30">
+        <h1 className=" text-gray-700 text-3xl">负债与股东权益</h1>
+      </div>
     </div>
   );
 }

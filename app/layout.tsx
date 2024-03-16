@@ -48,12 +48,12 @@ export default function RootLayout({
       <body>
         <ThemeProvider theme={theme}>
           <SearchHeader placeholder="请输入股票代码"></SearchHeader>
-          <div className="flex flex-row w-full">
-            <FinanceSection/>
+          <div className="flex flex-row w-full h-screen">
+            <FinanceSection />
 
-          <StockFinance/>
+            <StockFinance />
 
-            <div className="h-screen w-full bg-gray-100">{children}</div>
+            <div className="h-screen w-full bg-blue-50 overflow-scroll">{children}</div>
           </div>
         </ThemeProvider>
       </body>

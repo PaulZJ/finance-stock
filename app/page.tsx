@@ -8,10 +8,14 @@
  */
 import Image from "next/image";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="flew-col">
-      <div className="w-full h-20 pt-6 pl-10 bg-orange-200">股市概览</div>
+      <div className="w-full h-screen pt-6 pl-10 bg-gradient-to-br from-blue-100 to-blue-300 bg-opacity-30 content-center">
+        <h1 className=" text-gray-700 text-4xl m-auto mb-20">股票网站</h1>
+        <p className=" text-xl mb-4 text-red-600 text-opacity-70">股票信息随时更新</p>
+        <p className=" text-slate-700">欢迎使用本网站, 随时订阅股票信息</p>
+      </div>
     </div>
   );
 }

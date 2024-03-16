@@ -50,7 +50,7 @@ const STOCK = () => {
         // const chartWidth = 800
         const chartWidth = parentElement.clientWidth -5
         // const chartHeight = 300
-        const chartHeight = parentElement.clientHeight-5
+        const chartHeight = 400
 
         console.log("size", chartHeight)
 
@@ -87,7 +87,7 @@ const STOCK = () => {
     }, [stockIndex])
 
     return (
-        <div className='h-full w-full flex-col pl-5'>
+        <div className='h-screan w-full flex-col pl-5 pb-10 bg-blue-200'>
             <p className='py-5'>股票代码</p>
             <div id='STOCK' className='w-2/3 h-2/3'>
             </div>
